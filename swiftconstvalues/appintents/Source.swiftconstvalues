@@ -1,0 +1,201 @@
+[
+  {
+    "typeName": "Source.SearchIntent",
+    "mangledTypeName": "6Source12SearchIntentV",
+    "kind": "struct",
+    "file": "Source.swift",
+    "line": 10,
+    "conformances": [
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype",
+      "AppIntents.AssistantSchemaIntent",
+      "AppIntents.AssistantIntent",
+      "AppIntents.ShowInAppSearchResultsIntent",
+      "AppIntents.SystemIntent"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "Source"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "Source"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "Source"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "Source"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "Source"
+      },
+      {
+        "protocolName": "AppIntents.AssistantSchemaIntent",
+        "conformanceDefiningModule": "Source"
+      },
+      {
+        "protocolName": "AppIntents.AssistantIntent",
+        "conformanceDefiningModule": "Source"
+      },
+      {
+        "protocolName": "AppIntents.ShowInAppSearchResultsIntent",
+        "conformanceDefiningModule": "Source"
+      },
+      {
+        "protocolName": "AppIntents.SystemIntent",
+        "conformanceDefiningModule": "Source"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "some AppIntents.IntentResult",
+        "substitutedMangledTypeName": "6Source12SearchIntentV7performQryYaKFQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.IntentResult"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQOy6Source06SearchC0V_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      },
+      {
+        "typeAliasName": "Criteria",
+        "substitutedTypeName": "AppIntents.StringSearchCriteria",
+        "substitutedMangledTypeName": "10AppIntents20StringSearchCriteriaV"
+      }
+    ],
+    "properties": [
+      {
+        "label": "_criteria",
+        "type": "AppIntents.IntentParameter<AppIntents.StringSearchCriteria>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "Source.swift",
+        "line": 13,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<AppIntents.StringSearchCriteria>",
+          "arguments": [
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "NilLiteral"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "NilLiteral"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        }
+      },
+      {
+        "label": "searchScopes",
+        "type": "Swift.Array<AppIntents.StringSearchScope>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "Source.swift",
+        "line": 11,
+        "valueKind": "Array",
+        "value": [
+          {
+            "valueKind": "Enum",
+            "value": {
+              "name": "general"
+            }
+          }
+        ]
+      },
+      {
+        "label": "criteria",
+        "type": "AppIntents.StringSearchCriteria",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "Source.swift",
+        "line": 13,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<AppIntents.StringSearchCriteria>",
+          "arguments": [
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "NilLiteral"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "NilLiteral"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        },
+        "propertyWrappers": [
+          {
+            "type": "AppIntents.IntentParameter",
+            "file": "@__swiftmacro_6Source12SearchIntentV8criteria03AppC0fMr0_.swift",
+            "line": 1,
+            "arguments": []
+          }
+        ]
+      },
+      {
+        "label": "$criteria",
+        "type": "AppIntents.IntentParameter<AppIntents.StringSearchCriteria>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "Source.swift",
+        "line": 13,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "__assistantSchemaIntent",
+        "type": "AppIntents.AssistantSchema",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "@__swiftmacro_6Source12SearchIntent03AppC0fMe_.swift",
+        "line": 3,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.AssistantSchema",
+          "arguments": [
+            {
+              "label": "",
+              "type": "some AppIntents.AssistantSchemas.Intent",
+              "valueKind": "Runtime"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

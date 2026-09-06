@@ -1,0 +1,158 @@
+[
+  {
+    "typeName": "Source.ChildProtocolConformer",
+    "mangledTypeName": "6Source22ChildProtocolConformerV",
+    "kind": "struct",
+    "file": "Source.swift",
+    "line": 11,
+    "conformances": [
+      "Source.FeatureConfig",
+      "Source.ConstConfig",
+      "Swift.Sendable"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "Source.FeatureConfig",
+        "conformanceDefiningModule": "Source"
+      },
+      {
+        "protocolName": "Source.ConstConfig",
+        "conformanceDefiningModule": "Source"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "Source"
+      }
+    ],
+    "associatedTypeAliases": [],
+    "properties": [
+      {
+        "label": "name",
+        "type": "Swift.String",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "Source.swift",
+        "line": 12,
+        "valueKind": "RawLiteral",
+        "value": "via-child-protocol"
+      }
+    ]
+  },
+  {
+    "typeName": "Source.AliasConformer",
+    "mangledTypeName": "6Source14AliasConformerV",
+    "kind": "struct",
+    "file": "Source.swift",
+    "line": 18,
+    "conformances": [
+      "Source.ConstConfig",
+      "Swift.Sendable"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "Source.ConstConfig",
+        "conformanceDefiningModule": "Source"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "Source"
+      }
+    ],
+    "associatedTypeAliases": [],
+    "properties": [
+      {
+        "label": "name",
+        "type": "Swift.String",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "Source.swift",
+        "line": 19,
+        "valueKind": "RawLiteral",
+        "value": "via-protocol-typealias"
+      }
+    ]
+  },
+  {
+    "typeName": "Source.ExtensionConformer",
+    "mangledTypeName": "6Source18ExtensionConformerV",
+    "kind": "struct",
+    "file": "Source.swift",
+    "line": 23,
+    "conformances": [
+      "Swift.Sendable",
+      "Source.ConstConfig"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "Source"
+      },
+      {
+        "protocolName": "Source.ConstConfig",
+        "conformanceDefiningModule": "Source"
+      }
+    ],
+    "associatedTypeAliases": [],
+    "properties": [
+      {
+        "label": "name",
+        "type": "Swift.String",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "Source.swift",
+        "line": 24,
+        "valueKind": "RawLiteral",
+        "value": "via-extension"
+      }
+    ]
+  },
+  {
+    "typeName": "Source.AliasedFieldType",
+    "mangledTypeName": "6Source16AliasedFieldTypeV",
+    "kind": "struct",
+    "file": "Source.swift",
+    "line": 32,
+    "conformances": [
+      "Source.ConstConfig",
+      "Swift.Sendable"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "Source.ConstConfig",
+        "conformanceDefiningModule": "Source"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "Source"
+      }
+    ],
+    "associatedTypeAliases": [],
+    "properties": [
+      {
+        "label": "id",
+        "type": "Swift.String",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "Source.swift",
+        "line": 33,
+        "valueKind": "RawLiteral",
+        "value": "user-123"
+      },
+      {
+        "label": "plain",
+        "type": "Swift.String",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "Source.swift",
+        "line": 34,
+        "valueKind": "RawLiteral",
+        "value": "for-comparison"
+      }
+    ]
+  }
+]

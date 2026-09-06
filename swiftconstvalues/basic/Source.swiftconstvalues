@@ -1,0 +1,46 @@
+[
+  {
+    "typeName": "Source.SomeType",
+    "mangledTypeName": "6Source8SomeTypeV",
+    "kind": "struct",
+    "file": "Source.swift",
+    "line": 4,
+    "conformances": [
+      "Source.SomeProtocol",
+      "Swift.Sendable"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "Source.SomeProtocol",
+        "conformanceDefiningModule": "Source"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "Source"
+      }
+    ],
+    "associatedTypeAliases": [],
+    "properties": [
+      {
+        "label": "title1",
+        "type": "Swift.String",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "Source.swift",
+        "line": 5,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "title2",
+        "type": "Swift.String",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "Source.swift",
+        "line": 7,
+        "valueKind": "Runtime"
+      }
+    ]
+  }
+]
